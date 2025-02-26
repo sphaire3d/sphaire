@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sphaire/static/css/main.cfbdbff0.css",
+    "main.js": "/sphaire/static/js/main.ec6d1540.js",
+    "static/media/up.png": "/sphaire/static/media/up.f34822ad2b15f0dc01ed.png",
+    "static/media/down.png": "/sphaire/static/media/down.e351d2db7ec256f4511d.png",
+    "static/media/pranav.png": "/sphaire/static/media/pranav.a9f0ccc3416c107e453b.png",
+    "static/media/kunal.png": "/sphaire/static/media/kunal.a634d793854aa4deb333.png",
+    "static/media/sphaireLogo.png": "/sphaire/static/media/sphaireLogo.00f03c4fa5fbcc5bf2db.png",
+    "index.html": "/sphaire/index.html",
+    "main.cfbdbff0.css.map": "/sphaire/static/css/main.cfbdbff0.css.map",
+    "main.ec6d1540.js.map": "/sphaire/static/js/main.ec6d1540.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfbdbff0.css",
+    "static/js/main.ec6d1540.js"
+  ]
+}

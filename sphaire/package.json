@@ -1,7 +1,7 @@
 {
   "name": "sphaire",
   "version": "0.1.0",
-  "homepage": "https://sphaire3d.github.io/sphaire",
+  "homepage": "https://sphaire3d.com",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

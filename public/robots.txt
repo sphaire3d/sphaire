@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
+# Allow all crawlers
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://sphaire3d.com/sitemap.xml
+
+# Crawl-delay directive for throttling requests
+Crawl-delay: 1

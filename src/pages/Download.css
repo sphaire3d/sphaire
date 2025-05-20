@@ -1,0 +1,178 @@
+/* Main download section */
+.download {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Content container with glass effect */
+.download .content {
+  max-width: 800px;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.download.in-view .content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Heading styles */
+.download h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ff82c3;
+}
+
+.download h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  color: #ff82c3;
+}
+
+/* Download info container */
+.download-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.download-info p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Coming soon badge with animation */
+.coming-soon-badge {
+  background: linear-gradient(135deg, #ff82c3, #9c4dcc);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 15px rgba(255, 130, 195, 0.3);
+  animation: pulse 2s infinite;
+  margin: 1rem 0 2rem;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 4px 15px rgba(255, 130, 195, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(255, 130, 195, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 15px rgba(255, 130, 195, 0.3);
+  }
+}
+
+/* Download features section */
+.download-features {
+  background: rgba(30, 30, 30, 0.5);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1rem 0 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  width: 100%;
+  max-width: 600px;
+}
+
+.download-features ul {
+  text-align: left;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.download-features li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Notification signup section */
+.notification-signup {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.signup-placeholder {
+  background: rgba(30, 30, 30, 0.5);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.soon-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer link styles */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: #ff82c3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .download h1 {
+    font-size: 2rem;
+  }
+  
+  .download-info p {
+    font-size: 1rem;
+  }
+  
+  .download .content {
+    padding: 2rem 1.5rem;
+  }
+  
+  .download-features li {
+    font-size: 1rem;
+  }
+}

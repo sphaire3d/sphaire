@@ -1,0 +1,115 @@
+/* Team page styles with SEO-friendly design */
+.team-page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.team-container {
+  max-width: 1000px;
+  width: 100%;
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 3rem;
+  animation: fadeIn 1s ease;
+}
+
+#team-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ff82c3;
+}
+
+.team-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-members {
+  margin: 3rem 0;
+}
+
+.redirect-message {
+  background: rgba(30, 30, 30, 0.5);
+  border-radius: 15px;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.redirect-message p {
+  font-size: 1.1rem;
+}
+
+.redirect-message a {
+  color: #ff82c3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.redirect-message a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.careers-section {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.careers-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ff82c3;
+}
+
+.careers-section p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.careers-section a {
+  color: #ff82c3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.careers-section a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .team-container {
+    padding: 2rem 1.5rem;
+  }
+  
+  #team-heading {
+    font-size: 2rem;
+  }
+  
+  .team-intro {
+    font-size: 1rem;
+  }
+}
